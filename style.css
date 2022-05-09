@@ -645,7 +645,9 @@ header .search-bar-container label:hover{
 }
 
 @media (max-width:768px){
-
+html{
+    overflow-x: hidden;
+  }
   #menu-bar{
     display: initial;
   }
@@ -676,6 +678,7 @@ header .search-bar-container label:hover{
 @media (max-width:450px){
 
   html{
+    overflow-x: hidden;
     font-size: 50%;
   }
 

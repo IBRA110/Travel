@@ -684,8 +684,9 @@ html{
     overflow-x: hidden;
     font-size: 50%;
   }
-  header{
-   overflow-x: hidden;
+
+  header .navbar{
+    overflow-x: hidden;
   }
   
   .heading span{

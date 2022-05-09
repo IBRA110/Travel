@@ -124,6 +124,7 @@ header .search-bar-container.active{
 
 header .search-bar-container #search-bar{
   width:100%;
+  
   padding:1rem;
   text-transform: none;
   color:#333;
@@ -636,6 +637,7 @@ header .search-bar-container label:hover{
 
   header{
     padding:2rem;
+    overflow-x: hidden;
   }
 
   section{
@@ -653,6 +655,7 @@ html{
   }
 
   header .navbar{
+    overflow-x: hidden;
     position: absolute;
     top:100%; right:0; left: 0;
     background: #333;
@@ -681,7 +684,10 @@ html{
     overflow-x: hidden;
     font-size: 50%;
   }
-
+  header{
+   overflow-x: hidden;
+  }
+  
   .heading span{
     font-size: 2.5rem;
   }

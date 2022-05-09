@@ -693,7 +693,10 @@ html{
   .heading span{
     font-size: 2.5rem;
   }
-
+.review
+  {
+    display: none;
+  }
   .contact .row form .inputBox input{
     width:100%;
   }

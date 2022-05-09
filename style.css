@@ -627,6 +627,7 @@ header .search-bar-container label:hover{
 
   html{
     font-size: 55%;
+    overflow-x: hidden;
   }
 
 }

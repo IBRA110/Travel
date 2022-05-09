@@ -687,7 +687,7 @@ html{
 
   header .navbar{
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
   }
   
   .heading span{
